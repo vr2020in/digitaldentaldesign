@@ -1506,11 +1506,11 @@ Main Area CSS
 }
 
 .main-banner.item-bg1 {
-  background-image: url(../img/main1.png);
+  background-image: url(../img/main\ banner.png);
 }
 
 .main-banner.item-bg2 {
-  background-image: url(../img/main23.png);
+  background-image: url(../img/main1.png);
 }
 
 .main-banner.item-bg3 {
@@ -1985,13 +1985,13 @@ About Area CSS
 
 .about-content .features-list li span {
   display: block;
-  color: #6d7a8c;
+  color: #0aa7e0;
   position: relative;
   padding-left: 25px;
 }
 
 .about-content .features-list li span i {
-  color: #0dcaf0;
+  color: black;
   position: absolute;
   left: 0;
   top: 50%;
@@ -2073,6 +2073,11 @@ About Area CSS
   display: none;
 }
 
+
+
+/* .serv{
+  color:#0AA7E0;
+} */
 /*================================================
 FunFacts Area CSS
 =================================================*/
@@ -3334,7 +3339,7 @@ CTA Area CSS
   position: relative;
   z-index: 1;
   background-color: #fe235b;
-  background-image: url(../img/bg1.png);
+  background-image: url(../img/bg2.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6231,7 +6236,7 @@ Go Top CSS
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: #fe235b;
+  background:#0aa7e0;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.5s;
